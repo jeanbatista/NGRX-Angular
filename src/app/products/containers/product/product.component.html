@@ -1,0 +1,13 @@
+<form [formGroup]="form">
+  <input formControlName="name" placeholder="Name" />
+
+  <br>
+
+  <input formControlName="quantity"
+    type="number"
+    placeholder="Quantity">
+</form>
+
+<br>
+
+<button (click)="add()">Save</button>
